@@ -1,0 +1,17 @@
+[package]
+name = "echo-server"
+version = "0.1.0"
+authors = ["jkcomment <jkcomment@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-http = "2.2.0"
+actix-rt = "1.1.1"
+actix-server = "1.0.4"
+log = "0.4"
+futures-core = { version = "0.3.7", default-features = false }
+futures-util = { version = "0.3.7", default-features = false }
+env_logger = "0.8.3"
+http = "0.2.2"
